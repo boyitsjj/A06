@@ -1,0 +1,50 @@
+/* San Joaquin Valley Town Hall - main stylesheet */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #333333;
+    max-width: 800px;
+    margin: 1em auto;
+    padding: 0 1em;
+    border: 1px solid #333333;
+}
+
+/* Header: logo on the left, titles on the right */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 1.25em;
+    align-items: center;
+}
+header img { grid-row: 1 / span 2; }
+header h2 {
+    margin: 0;
+    align-self: end;
+    font-size: 1.6em;
+}
+header h3 {
+    margin: .3em 0 0;
+    align-self: start;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #333333;
+}
+header sup { font-size: 1.1em; }
+
+/* Headings */
+h1 { font-size: 1.4em; color: #333333; margin: .8em 0 .5em; }
+h2 { font-size: 1.15em; color: #86596b; margin: .9em 0 .4em; }
+h3 { font-size: .9em; color: #333333; margin: 1em 0 .5em; }
+
+p, li { font-size: .85em; }
+blockquote { margin: 1em 3em; font-size: .85em; }
+ul { margin: .3em 0; }
+
+/* Links: blue-gray, italic on mouse-over */
+a { color: #5a78c0; }
+a:hover { font-style: italic; }
+
+img { display: block; }
+
+footer { text-align: center; margin-top: 1em; }
+footer p { margin: .2em 0; font-size: .8em; }
